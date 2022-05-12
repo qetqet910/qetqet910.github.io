@@ -1,6 +1,21 @@
 /* ==========================================================================
    자체 커스텀한 부분
    ========================================================================== */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #f1f2f6;
+        border-radius: 10px;
+        background-clip: padding-box;
+        border: 3px solid transparent;
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #252A34;
+    }
+
     .hide{
         display:none;
     }

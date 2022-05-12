@@ -14,9 +14,51 @@ baseurl: # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog
 repository: "qetqet910/qetqet910.github.io" # GitHub username/repo-name
 teaser: # "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
 logo: # 타이틀 옆에 작게 들어갈 이미지.
-masthead_title: "TIL BLOG" # 홈페이지 최 상탄에 들어갈 타이틀
+masthead_title: "Development Blog" # 홈페이지 최 상탄에 들어갈 타이틀
 breadcrumbs: true # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute: 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
+
+# 댓글 관련 부분
+comments:
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname: Blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+  utterances:
+    theme: "photon-dark" #  (default), "github-dark"
+    issue_term: "pathname" #  (default)
+staticman:
+  allowedFields: # ['name', 'email', 'url', 'message']
+  branch: # "master"
+  commitMessage: # "New comment by {fields.name}"
+  filename: # comment-{@timestamp}
+  format: # "yml"
+  moderation: # true
+  path: # "/_data/comments/{options.slug}" (default)
+  requiredFields: # ['name', 'email', 'message']
+  transforms:
+    email: # "md5"
+  generatedFields:
+    date:
+      type: # "date"
+      options:
+        format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
+
+# <script src="https://utteranc.es/client.js"
+#         repo="qetqet910/qetqet910.github.io"
+#         issue-term="url"
+#         label="💬"
+#         theme="photon-dark"
+#         crossorigin="anonymous"
+#         async>
+# </script>
 
 # 구글 recaptcha 세팅
 reCaptcha:
@@ -68,14 +110,14 @@ analytics:
 author:
   name: "김현민"
   avatar: "/assets/images/profile/programmer.png" # 프로필 이미지
-  bio: "개발자분들 모두 화이팅!"
+  bio: "이 세상 모든 개발자 분들을 <br>존경합니다!"
   location: "Republic of Korea"
   email: "qetqet910@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       #url: mailto:7271kim@naver.com
-    - label: "Website"
+    - label: "Blog"
       icon: "fas fa-fw fa-link"
       url: "http://qetqet910.github.io"
     - label: "Twitter"

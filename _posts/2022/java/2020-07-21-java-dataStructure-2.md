@@ -1,5 +1,5 @@
 ---
-title: JAVA 자료구조 2(Data Structure)
+title: Example
 layout: single
 author_profile: true
 read_time: true
@@ -17,6 +17,30 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 ---
+
+<!-- ---
+title: GitHub 블로그 시작하기
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+popular: true
+categories:
+- Jekyll
+toc: true
+toc_sticky: true
+toc_label: 목차
+description: 깃 블로그 하는 방법을 기술하고 깃 블로그란 무엇인지  GitBlog와 Jekyll란 무엇인지 또한  로컬 개발 환경을 위한 루비설치를 어떻게 하는지 _config.yml 세팅 등 깃 블로그를 처음 시작할때 겪었던 어려움을 극복하는 페이지
+article_tag1: GitHub(GitBlog) 블로그
+article_tag2: minimal-mistakes
+article_tag3: Jekyll
+article_section: 깃 블로그 따라하기
+meta_keywords: 깃블로그,GitBlog,GitHub블로그,minimal-mistakes,Jekyll
+last_modified_at: 2020-01-23T00:00:00+08:00
+--- -->
+
 # Step 4 : 비선형구조  
 ## 트리(Tree)
 ![java 쓰레드 상태]({{ site.url }}{{ site.baseurl }}/assets/images/post/java/data-tree.png){: .align-center .open-new}
