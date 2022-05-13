@@ -1,5 +1,5 @@
 ---
-title: Example
+title: Java 전자정부프레임워크 4.0.0 세팅
 layout: single
 author_profile: true
 read_time: true
@@ -9,39 +9,19 @@ related: true
 categories:
 - JAVA
 description: 개발자로서 필요한 자료구조란 무엇인지 기본적인 사항에 관해 정리해보겠습니다.
-article_tag1: 자료구조
-article_section: Structure
-meta_keywords: JAVA, Heap, Map, Tree, Graph
-last_modified_at: '2020-07-21 14:00:00 +08000'
+article_tag1: 전자정부프레임워크 4.0.0 설정
+article_section: 전자정부프레임워크
+meta_keywords: 전자정부프레임워크 4.0.0, CMS, Eclipse, 이클립스, 자바, JAVA, Tomcat, 설정
 toc: true
 toc_sticky: true
 toc_label: 목차
 ---
 
-<!-- ---
-title: GitHub 블로그 시작하기
-layout: single
-author_profile: true
-read_time: true
-comments: true
-share: true
-related: true
-popular: true
-categories:
-- Jekyll
-toc: true
-toc_sticky: true
-toc_label: 목차
-description: 깃 블로그 하는 방법을 기술하고 깃 블로그란 무엇인지  GitBlog와 Jekyll란 무엇인지 또한  로컬 개발 환경을 위한 루비설치를 어떻게 하는지 _config.yml 세팅 등 깃 블로그를 처음 시작할때 겪었던 어려움을 극복하는 페이지
-article_tag1: GitHub(GitBlog) 블로그
-article_tag2: minimal-mistakes
-article_tag3: Jekyll
-article_section: 깃 블로그 따라하기
-meta_keywords: 깃블로그,GitBlog,GitHub블로그,minimal-mistakes,Jekyll
-last_modified_at: 2020-01-23T00:00:00+08:00
---- -->
+# 전자정부프레임워크 4.0.0 세팅
 
-# Step 4 : 비선형구조  
+## 인사말
+저의 첫 블로그 포스팅 입니다 어.. 부족하지만 많이 봐주세용
+
 ## 트리(Tree)
 ![java 쓰레드 상태]({{ site.url }}{{ site.baseurl }}/assets/images/post/java/data-tree.png){: .align-center .open-new}
 트리란 위에도 가볍게 언급한, 하나의 루트 노드와 0개 이상의 자식노드로 이루어진 자료구조입니다. 주로 계층적 관계( Hierarchical Relationship )를 표현하는 자료구조입니다.  트리관련 용어를 살펴보겠습니다.
