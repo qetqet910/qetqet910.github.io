@@ -1,13 +1,12 @@
-# main links
 main:
   - title: "Categories"
     url: /categories/
+  - title: "연도별 포스트"
+    url: /posts/
   # - title: "Tags"
   #   url: /tags/
-  # - title: "연도별 포스트"
-  #   url: /posts/
-#  - title: "About"
-#    url: /about/
+  #  - title: "About"
+  #    url: /about/
 # - title: "Quick-Start Guide"
 #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 

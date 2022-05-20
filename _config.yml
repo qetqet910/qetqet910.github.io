@@ -10,10 +10,10 @@ subtitle: "Version Beta 1.0" # 타이틀 아래에 나올 작은 글씨
 name: "김현민" # 맨 하단 이름 찍히는 영역
 description: "여러 가지 것들을 공부하는 블로그" # Meta 태그에 들어가는 영역
 url: "https://qetqet910.github.io" # GitBlog 호스트 주소
-baseurl: # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
+baseurl: "https://qetqet910.github.io" # subPath /blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository: "qetqet910/qetqet910.github.io" # GitHub username/repo-name
-teaser: # "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
-logo: # 타이틀 옆에 작게 들어갈 이미지.
+teaser: "/assets/images/T.png" # 홈페이지 기본 티져 이미지
+logo: "/assets/images/MiniLogo.png" # 타이틀 옆에 작게 들어갈 이미지.
 masthead_title: "Development Blog" # 홈페이지 최 상탄에 들어갈 타이틀
 breadcrumbs: true # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute: 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
@@ -21,8 +21,6 @@ words_per_minute: 200 # 해당 포스트 읽는데 걸리는 시간을 계산하
 # 댓글 관련 부분
 comments:
   provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname: Blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -50,15 +48,6 @@ staticman:
       options:
         format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
-
-# <script src="https://utteranc.es/client.js"
-#         repo="qetqet910/qetqet910.github.io"
-#         issue-term="url"
-#         label="💬"
-#         theme="photon-dark"
-#         crossorigin="anonymous"
-#         async>
-# </script>
 
 # 구글 recaptcha 세팅
 reCaptcha:
@@ -91,7 +80,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: # Open Graph/Twitter default site image
+og_image: "/assets/images/OpenGraphIMG.png";
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -116,7 +105,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:7271kim@naver.com
+      url: "qetqet910@naver.com"
     - label: "Blog"
       icon: "fas fa-fw fa-link"
       url: "http://qetqet910.github.io"
@@ -131,14 +120,14 @@ author:
       url: "https://github.com/qetqet910"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/hnnnnnmin/"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:qetqet910@naver.com
+      url: "qetqet910@naver.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -251,12 +240,14 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
+
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -271,12 +262,14 @@ tag_archive:
 
 # HTML Compression
 # - https://jch.penibelst.de/
+
 compress_html:
   clippings: all
   ignore:
     envs: development
 
 # Defaults Post들에 적용될 기본 설정들
+
 defaults:
   # _posts
   - scope:
