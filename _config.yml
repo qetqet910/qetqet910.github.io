@@ -10,7 +10,7 @@ subtitle: "Version Beta 1.0" # 타이틀 아래에 나올 작은 글씨
 name: "김현민" # 맨 하단 이름 찍히는 영역
 description: "여러 가지 것들을 공부하는 블로그" # Meta 태그에 들어가는 영역
 url: "https://qetqet910.github.io" # GitBlog 호스트 주소
-baseurl: "https://qetqet910.github.io" # subPath /blog라고 하고 싶을 시 "/blog" 라고 적는다.
+baseurl: # "https://qetqet910.github.io" # subPath /blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository: "qetqet910/qetqet910.github.io" # GitHub username/repo-name
 teaser: "/assets/images/T.png" # 홈페이지 기본 티져 이미지
 logo: "/assets/images/MiniLogo.png" # 타이틀 옆에 작게 들어갈 이미지.
@@ -80,7 +80,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/images/OpenGraphIMG.png";
+og_image: "/assets/images/OpenGraphIMG.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
